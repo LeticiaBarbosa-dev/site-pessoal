@@ -70,7 +70,7 @@ span {
     margin-top: 4rem;
 }
 
-.sobre {
+.section {
     margin-top: 1.25rem;
     
     display: flex;
@@ -79,11 +79,30 @@ span {
     justify-content: center;
 }
 
-.sobre h2 {
+h2 {
     font-size: 2rem;
+    margin-bottom: 1.25rem;
 }
 
 #sobre span {
     font-size: 1.25rem;
     text-align: center;
+}
+
+.cards {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  background: #212121;
+  border: 1px solid #333;
+  width: 9.375rem;
+  height: 9.375rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
